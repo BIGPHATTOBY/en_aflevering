@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-header .title{
+  margin-top: 40px;
+}
+
+.App-header a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: .2s all;
+}
+.App-header a:hover{
+  opacity: .7;
+}
+
+.githubIcon{
+  height: 30px;
+  margin-right: 5px;
+}
+
+.section {
+  background-color: rgb(235, 232, 232);
+}
+
+.Countdown{
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+
+.Countdown-col{
+  display: inline-block;
+}
+
+.Countdown-col-element{
+  display: inline-block;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Countdown-col-element strong{
+  font-size: 50px;
+}
+
+.Countdown-col-element b{
+  color:rgb(41, 41, 41)
+}
+
+.Countdown-col-element text{
+  color:rgb(65, 62, 62)
+}
+
+.Countdown-col-element span{
+  color:rgb(65, 62, 62)
+}
+
+.Countdown-date-front{
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.Countdown-date-back{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#date-connector{
+  display: inline-block;
+  border-radius: 1px;
+  margin-top: 13px;
+  height: 5px;
+  width: 490px;
+  background-color: rgb(63, 56, 56);
+  margin-left: 10px;
+}
