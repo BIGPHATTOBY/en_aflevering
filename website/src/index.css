@@ -36,12 +36,16 @@ body {
 }
 
 .section {
-  background-color: rgb(235, 232, 232);
+  margin-top: -11px;
+  background-color: rgb(white, white, white);
 }
 
+#first-section {
+  background-color: rgb(235, 232, 232);
+}
 .Countdown{
   margin: 0px auto;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 }
 
 .Countdown-col{
@@ -50,25 +54,26 @@ body {
 
 .Countdown-col-element{
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 15px;
   display: flex;
   flex-direction: column;
 }
 
-.Countdown-col-element strong{
-  font-size: 50px;
-}
-
 .Countdown-col-element b{
-  color:rgb(41, 41, 41)
+  color:rgb(41, 41, 41);
+  font-size: 200%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .Countdown-col-element text{
-  color:rgb(65, 62, 62)
+  color:rgb(65, 62, 62);
+  font-size: 200%;
 }
 
 .Countdown-col-element span{
-  color:rgb(65, 62, 62)
+  color:rgb(65, 62, 62);
+  font-size: 200%;
 }
 
 .Countdown-date-front{
@@ -84,9 +89,44 @@ body {
 #date-connector{
   display: inline-block;
   border-radius: 1px;
-  margin-top: 13px;
-  height: 5px;
-  width: 490px;
+  margin-top: 20px;
+  margin-bottom: 13px;
+  height: 1px;
+  width: 100%;
   background-color: rgb(63, 56, 56);
-  margin-left: 10px;
+}
+
+#spacer {
+  display: inline-block;
+  border-radius: 1px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  height: 1px;
+  width: 100%;
+  background-color: rgb(63, 56, 56);
+}
+
+.delivery-status b{
+  font-size: 150%;
+}
+
+.delivery-status #status{
+  color: red;
+}
+
+#assignment-box{
+  padding-top: 20px;
+}
+
+.assignment b {
+  font-size: 200%;
+}
+
+#aflever {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#section-grey {
+  background-color: rgb(242, 242, 242)
 }
